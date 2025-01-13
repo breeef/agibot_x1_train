@@ -38,6 +38,11 @@ from .x1.x1_dh_stand_config  import X1DHStandCfg, X1DHStandCfgPPO
 
 from .x1.x1_dh_stand_env import X1DHStandEnv
 
+from .kql.kql_dh_stand_env import KQLDHStandEnv
+
+from .kql.kql_dh_stand_config import KQLDHStandCfg, KQLDHStandCfgPPO
+
 from humanoid.utils.task_registry import task_registry
 
 task_registry.register( "x1_dh_stand", X1DHStandEnv, X1DHStandCfg(), X1DHStandCfgPPO() )
+task_registry.register( "kql_dh_stand", KQLDHStandEnv, KQLDHStandCfg(), KQLDHStandCfgPPO() )
