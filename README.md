@@ -2,9 +2,7 @@ English | [中文](README.zh_CN.md)
 ## Introduction
 [AgiBot X1](https://www.zhiyuan-robot.com/qzproduct/169.html) is a modular humanoid robot with high dof developed and open-sourced by AgiBot. It is built upon AgiBot's open-source framework `AimRT` as middleware and using reinforcement learning for locomotion control.
 
-This project is about the reinforcement learning training code used by AgiBot X1. It can be used in conjunction with the [inference software](https://aimrt.org/) provided with AgiBot X1 for real-robot and simulated walking debugging, or be imported to other robot models for training.
-![](doc/id.jpg)
-
+基于智元机器人的强化学习rew思路，将urdf替换成自己的，并对conf进行详细的注释
 ## Start
 
 ### Install Dependencies
